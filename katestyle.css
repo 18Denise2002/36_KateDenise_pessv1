@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-color: pink;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.topnav {
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    background-color: #E95D7F;
+    padding: 20px 20px;
+    text-align: center;	
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #DDDDDD;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: lightpink;
+  color: darkgrey;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.navbar {
+    text-align:center;
+    width: 100%;
+}
+.navbar ul {
+    display:inline-block;
+}
+.navbar li {
+    float:left;
+}
+.navbar li + li {
+    margin-left:20px;
+}
+
